@@ -1,3 +1,5 @@
+<p class="has-line-data" data-line-start="0" data-line-end="2">Log Management Application<br>
+(Developer Technical Notes)</p>
 <p class="has-line-data" data-line-start="3" data-line-end="7">Application Overview<br>
 This console application, built in .NET 6 and C#, demonstrates a log management system that allows multiple threads to write log entries concurrently to a shared log file. The application ensures synchronized access to the log file in a thread-safe manner, handles exceptions, and provides a clean, well-constructed code structure. It also incorporates Docker containerization for easy deployment.<br>
 The log file is created at the specified location (/log/out.txt) and maintains a counter value that increments with each write operation.<br>
